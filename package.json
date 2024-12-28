@@ -1,0 +1,25 @@
+{
+  "name": "procedural-world",
+  "version": "1.0.0",
+  "description": "Procedural world generation with PixiJS and TypeScript",
+  "main": "src/main.ts",
+  "type": "module",
+  "dependencies": {
+    "alea": "^1.0.1",
+    "chance": "^1.1.12",
+    "keyboardjs": "^2.7.0",
+    "matter-js": "^0.20.0",
+    "pixi.js": "^8.6.6",
+    "seedrandom": "^3.0.5",
+    "simplex-noise": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.1.6",
+    "typescript": "^5.3.2",
+    "vite": "^6.0.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
