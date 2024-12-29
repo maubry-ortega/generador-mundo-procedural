@@ -16,9 +16,9 @@ import { WorldGenerator } from './game/WorldGenerator';
 
     // Carga de texturas
     await AssetLoader.load({
-        grass: './assets/grass.png',
-        road: './assets/road.png',
-        player: './assets/player.png',
+        grass: '/assets/tiles/grass.png',
+        road: '/assets/tiles/road.png',
+        player: '/assets/sprites/player.png',
     });
 
     // Inicialización del jugador
