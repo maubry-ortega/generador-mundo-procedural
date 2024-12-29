@@ -29,3 +29,25 @@ declare module 'keyboardjs' {
     const keyboardjs: any;
     export = keyboardjs;
 }
+
+declare module 'dat.gui' {
+    export class GUI {
+        constructor();
+        addFolder(name: string): GUI;
+        add(target: object, propName: string, min?: number, max?: number, step?: number): Controller;
+        addColor(target: object, propName: string): Controller;
+        open(): void;
+        close(): void;
+        destroy(): void;
+    }
+
+    export class Controller {
+        min(value: number): this;
+        max(value: number): this;
+        step(value: number): this;
+        listen(): this;
+        onChange(callback: (value: any) => void): this;
+        onFinishChange(callback: (value: any) => void): this;
+    }
+}
+
