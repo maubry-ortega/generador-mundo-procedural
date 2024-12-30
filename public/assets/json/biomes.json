@@ -1,0 +1,16 @@
+{
+    "biomes": {
+      "grassland": {
+        "tiles": ["grass", "flower"],
+        "weight": 50
+      },
+      "road": {
+        "tiles": ["road", "sidewalk"],
+        "weight": 10
+      },
+      "forest": {
+        "tiles": ["tree", "bush"],
+        "weight": 40
+      }
+    }
+  }  

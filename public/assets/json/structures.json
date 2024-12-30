@@ -1,0 +1,24 @@
+{
+    "structures": {
+      "house": {
+        "width": 5,
+        "height": 5,
+        "tiles": [
+          ["wall", "wall", "wall", "wall", "wall"],
+          ["wall", "floor", "floor", "floor", "wall"],
+          ["wall", "floor", "bed", "floor", "wall"],
+          ["wall", "floor", "floor", "floor", "wall"],
+          ["wall", "wall", "wall", "wall", "wall"]
+        ]
+      },
+      "lake": {
+        "width": 3,
+        "height": 3,
+        "tiles": [
+          ["water", "water", "water"],
+          ["water", "deep_water", "water"],
+          ["water", "water", "water"]
+        ]
+      }
+    }
+  }

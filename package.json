@@ -18,8 +18,10 @@
   "devDependencies": {
     "@types/chance": "^1.1.6",
     "@types/dat.gui": "^0.7.13",
+    "@types/lodash": "^4.17.13",
     "typescript": "^5.3.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-tsconfig-paths": "^5.1.4"
   },
   "scripts": {
     "dev": "vite",
